@@ -1,1 +1,1 @@
-window.alert("誕生日祝ってよ！");
+window.alert("やあ!");

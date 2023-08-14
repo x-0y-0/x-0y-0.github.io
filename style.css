@@ -1,0 +1,238 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #efc0a0;
+}
+
+/* h1見出し */
+h1 {
+  color: #ebb9b9;/* フォントの色 */
+  font-size: 70px;/* フォントの大きさ */
+  font-family: 'Zen Maru Gothic', sans-serif;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  background-image: url(img/frame.png);/* 背景画像 */
+  height: 320px;/* 高さ */
+  padding-top: 40px;/* 上がわの余白 */
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  background-position: top center;/* 背景の位置 */
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-color: rgb(97, 60, 10);
+  background-image: url(img/bee.png);/* 背景画像 */
+  height: 450px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+/* ナビゲーションの箱 */
+nav {
+  background-color: #1e7919;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 25px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: #49d33f;
+}
+
+
+
+
+
+
+
+/* ===== プロフィール ===== */
+/* セクション */
+.intro {
+  background-color: #efc0a0;/* 背景の色 */
+  color: #0d4921;
+  padding: 30px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  font-family: 'DotGothic16', sans-serif;
+  color: #2d2d2d;
+  border-color: #ffcc11;
+}
+
+/* 段落 */
+.intro p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+/* 画像 */
+.intro img {
+  float: right;/* 画像や箱の回り込み */
+  transform: scale(-1, 1);
+}
+
+
+
+
+
+
+
+
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-image: url(img/oak.png);
+  border-style: solid;
+  border: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+
+.photo-zone {
+  display: flex;
+}
+
+/* 大きな箱 */
+.big {
+  background-color: #ffffff;
+  width: 500px;/* 横幅 */
+  padding: 15px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  transform: rotate(-5deg);/* 回転させる */
+  height: 350px;
+}
+
+/* 小さな箱 */
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+/* 箱 */
+.box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ===== アクセス情報のスタイル ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  height: 400px;
+  color: #ffffff;
+  background-image: url(img/stone.png);
+}
+
+.access h2 {
+  color: rgb(226, 226, 226);
+}
+
+
+/* 箱 */
+.access div {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.access img {
+  height: 250px;
+  text-align: right;
+  padding-right: 30;
+}
+
+.access .mail {
+  display: flex;
+  align-items: center;
+}
+
+.access .mail p {
+  margin-left: 30%;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 30px;
+}
+
+/* フッター */
+.footer {
+  background-color: #236329;
+  color: #49b951;
+  font-size: 15px;
+  font-family: 'DotGothic16', sans-serif;
+  margin: center auto;
+  display: block;
+  text-align: center;
+}
+
+.footer img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
